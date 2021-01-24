@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="show">
+
+        </div>
+        <div class="article">
+            <p  class="article-1">段落1</p>
+            <p  class="article-1">段落2</p>
+        </div>
+        <img src="" alt="">
+    </body>
+    <script>
+        var articles = document.querySelectorAll(".article-1");
+        console.log(articles);
+        console.log(articles[0]);
+        console.log(articles[1]);
+        articles[0].style.color = "red";
+        articles[0].style.fontSize = "30px";
+
+        articles[1].style.fontSize = "30px";
+
+        var get_imgs = document.getElementsByTagName("img");
+        get_imgs[0].style.width = "50px";
+        get_imgs[0].style.height = "50px";
+    </script>
+</html>
